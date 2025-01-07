@@ -1,9 +1,9 @@
 
 開啟Anaconda Prompt
 
-創建環境，並安裝 Python 3.7
+創建環境，並安裝 Python 3.6
 ```
-conda create -n pyscpro python=3.7 -y
+conda create -n pyscpro python=3.6 -y
 ```
    
 啟動環境
@@ -15,6 +15,8 @@ Clone 專案
 ```
 git clone https://github.com/danielpalen/pysc2-rl-agents.git
 ```
+
+
 ```
 cd pysc2-rl-agents
 ```
@@ -29,19 +31,13 @@ conda install git
 pip install pysc2
 ```
 
-安裝 tensorflow
-```
-pip install tensorflow==1.15.0
-```
+
 
 安裝其他必要的套件
 ```
-pip install -r requirements.txt
+pip install -r requirements+n.txt
 ```
-解決error
-```
-pip install numpy==1.24.3
-```
+
 
 
 
