@@ -26,11 +26,6 @@ cd pysc2-rl-agents
 conda install git
 ```
 
-安裝 pysc2
-```
-pip install pysc2
-```
-
 
 安裝其他必要的套件
 將`requirements+n.txt`下載到`pysc2-rl-agents`資料夾中
