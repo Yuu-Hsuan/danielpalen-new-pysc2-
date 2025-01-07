@@ -1,9 +1,9 @@
 
-### 1. 開啟Anaconda Prompt
+開啟Anaconda Prompt
 
-創建環境，並安裝 Python 3.8
+創建環境，並安裝 Python 3.7
 ```
-conda create -n pyscpro python=3.8 -y
+conda create -n pyscpro python=3.7 -y
 ```
    
 啟動環境
@@ -31,18 +31,24 @@ pip install pysc2
 
 安裝 tensorflow
 ```
-pip install tensorflow-gpu  #若有 NVIDIA GPU 並支援 CUDA
-```
-```
-pip install tensorflow #若無 GPU 或不需要 GPU 加速
+pip install tensorflow==1.15.0
 ```
 
 安裝其他必要的套件
 ```
 pip install -r requirements.txt
 ```
+解決error
+```
+pip install numpy==1.24.3
+```
 
 
+
+打開
+```
+python run.py
+```
 
 
 
