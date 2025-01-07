@@ -37,9 +37,9 @@ pip install pysc2
 ```
 pip install -r requirements+n.txt
 ```
-
-
-
+```
+pip install tensorflow==1.15.0
+```
 
 打開
 ```
