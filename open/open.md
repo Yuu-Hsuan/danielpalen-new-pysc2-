@@ -33,6 +33,8 @@ pip install pysc2
 
 
 安裝其他必要的套件
+將`requirements+n.txt`下載到`pysc2-rl-agents`資料夾中
+
 ```
 pip install -r requirements+n.txt
 ```
